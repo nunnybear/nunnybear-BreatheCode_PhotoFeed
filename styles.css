@@ -1,0 +1,65 @@
+/* {
+	border: 1px dashed red;
+	min-height: 10px;} */
+
+body{
+    background-color: rgb(231, 231, 231);
+    margin:0px;
+}
+.photofeed-header{
+    margin:0px;
+    padding:1px;
+    text-align: center;
+    background-color: white;
+}
+.flex-container{
+    display:flex;
+    justify-content: center;
+}
+.column-images{
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+    min-width: 500px;
+    gap: 50px;
+    
+}
+
+.post{
+    background-color: white;
+    width:400px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header h2{
+    margin:5px;
+}
+.header p{
+    margin: 5px;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    padding:10px;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*These are ids for specfic images*/
+#catWindow{
+    width:100%;
+}
+#prettyBooks{
+    width:100%;
+}
+#teaPie{
+    width:100%;
+}
